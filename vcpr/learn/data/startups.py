@@ -29,9 +29,10 @@ def download():
         if 'data' not in response:
           continue
         for item in response['data']['items']:
-          if not item['properties'] or not item['properties']['domain']:
+          try:
+            domain = item['properties']['domain'].lower()
+          except (KeyError, AttributeError):
             continue
-          domain = item['properties']['domain'].lower()
           if domain not in seen:
             f.write(domain + '\n')
             seen.add(domain)

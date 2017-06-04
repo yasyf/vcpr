@@ -17,6 +17,7 @@ enum34==1.1.6
 funcsigs==1.0.2
 functools32==3.2.3.post2
 greenlet==0.4.12
+h5py==2.7.0
 idna==2.5
 incremental==17.5.0
 ipaddress==1.0.18
@@ -47,7 +48,7 @@ Scrapy==1.4.0
 service-identity==17.0.0
 six==1.10.0
 subprocess32==3.2.7
-tensorflow-gpu==1.1.0
+tensorflow==1.1.0
 Twisted==17.1.0
 urllib3==1.21.1
 w3lib==1.17.0
