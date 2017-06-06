@@ -24,6 +24,8 @@ STARTUPS = __from_root('data', 'startups.txt')
 
 ## URL Model
 
+URL_LINEAR_MODEL = __from_root('data', 'url', 'linear.pickle')
+
 URL_LSTM_MODEL = __from_root('data', 'url', 'lstm.h5')
 
 URL_LSTM_PLUS_MODEL = __from_root('data', 'url', 'lstm_plus.h5')
