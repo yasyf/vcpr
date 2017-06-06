@@ -4,7 +4,7 @@ from ..utils import read_data, split_data, threshold_acc, register_model, save_a
 from keras.models import Sequential
 from keras.layers import Dense, Embedding, LSTM
 
-linelimit = 15 ** 4
+linelimit = 1.5e4
 trainprop = 0.8
 batchsize = 32
 epochs = 5

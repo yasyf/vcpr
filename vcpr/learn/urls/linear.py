@@ -6,7 +6,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.pipeline import Pipeline
 
-linelimit = 15 ** 4
+linelimit = 1.5e4
 trainprop = 0.8
 
 def data_and_labels():
