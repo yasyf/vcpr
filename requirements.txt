@@ -44,7 +44,7 @@ PyYAML==3.12
 queuelib==1.4.2
 requests==2.17.3
 scipy==0.19.0
-Scrapy==1.4.0
+Scrapy==2.6.1
 service-identity==17.0.0
 six==1.10.0
 subprocess32==3.2.7
